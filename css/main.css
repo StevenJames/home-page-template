@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  html {
+    color: white;
+    font-family: Roboto, sans-serif;
+  }
+  
+  .topNav {
+    background: rgb(170, 21, 28);
+    width: 300px;
+    float: right;
+    display: none;
+  }
+  
+  .topHeader {
+    background: rgb(170, 21, 28);
+    text-align: center;
+    height: 40px;
+  }
+  
+  .topHeader span {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  
+  .topHeader img {
+    height: 100%;
+  }
+  
+  .navIcon {
+    height: 40px;
+  }
+  
+  .navRow {
+    margin: 20px 10px;
+  }
+  
+  .searchBar {
+    float: left;
+    margin: 6px;
+    background-color: rgb(139, 17, 23);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px ridge rgb(139, 17, 23);
+    height: 26px;
+  }
+  
+  .searchBar img {
+    height: 28px;
+  }
+  
+  input {
+    vertical-align: top;
+    padding: 4px;
+    background-color: rgb(139, 17, 23);
+    color: rgb(167, 72, 76);
+    border: none;
+  }
+  
+  .headerOptions {
+    float: right;
+  }
+  
+  .align-right {
+    float: right;
+  }
+  
+  .shadow {
+    content: url("/images/iphone-indexshadow.png");
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+  }
+  
+  .iconContainer {
+    display: inline-block;
+    font-size: 12px;
+    width: 70px;
+    text-align: center;
+  }
+  
+  .iconContainer img {
+    display: block;
+    width: 70px;
+  }
+  
+  button {
+    text-decoration: none;
+    color: initial;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  

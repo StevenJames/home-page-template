@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>Home</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="topHeader">
+            <div class="searchBar">
+                <img src='/images/SearchInRedBox@2x.png' />
+                <input value="Find people or topics" />
+            </div>
+            <span>Home</span>
+            <a onclick="toggleNav()">
+                <img class="align-right" src="images/MoreOptions@2x.png" />
+            </a>
+            <img class="align-right" src="images/appNewRecordingWeb.png" />
+        </div>
+        <div class="shadow"></div>
+        <div id="nav-placeholder"></div>
+    </header>
+
+    <main>
+    </main>
+
+
+    <footer>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='js/app.js' type='text/javascript'></script>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("navigation.html");
+        });
+    </script>
+</body>
+
+</html>
